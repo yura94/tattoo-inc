@@ -1,0 +1,83 @@
+html,
+body {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 15px;
+  color: #333;
+  min-width: 1024px;
+  max-width: 1920px;
+  background: url('../img/background.jpg') center no-repeat;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.intro {
+  overflow: hidden;
+  z-index: -100;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+.intro video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-size: cover;
+}
+.intro .intro-title {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  z-index: 2;
+  font-size: 100px;
+  font-weight: bold;
+  color: #ff3f3f;
+}
+.header {
+  position: fixed;
+  background-color: #64646438;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: none;
+  border-bottom: 3px solid #000;
+  z-index: 100;
+}
+.header .logo {
+  text-decoration: none;
+  font-size: 50px;
+  color: #ff3f3f;
+  vertical-align: 50%;
+}
+.header .logo-img {
+  margin-left: 10px;
+}
+.header .logo-title {
+  margin-left: 20px;
+  vertical-align: 30%;
+}
+.header .login-form {
+  margin-right: 30px;
+}
+.header .login-button {
+  display: inline-block;
+  margin: 0 10px;
+}
+.steps {
+  margin: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.steps .step-container {
+  left: 50%;
+}
+.steps .step-container .step-title {
+  color: #af0f0f;
+  font-size: 75px;
+}
